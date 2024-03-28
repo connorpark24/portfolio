@@ -8,6 +8,7 @@ const Navbar = () => {
     <div className="flex justify-end h-24 text-white bg-primary items-center lg:px-24 md:px-16">
       <div className="hidden md:flex flex-row lg:gap-x-16 gap-x-12 font-noto-sans font-light lg:text-sm text-xs">
         <a href="#about">About</a>
+        <a href="#about">Education</a>
         <a href="#projects">Work</a>
         <a href="#blog">Blog</a>
       </div>

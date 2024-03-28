@@ -22,7 +22,7 @@ const BlogPreview = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex flex-col  items-center justify-center bg-white py-24"
+      className="min-h-screen flex flex-col items-center justify-center bg-white py-24"
     >
       <h1 className="md:text-lg text-base mb-12 font-light font-noto-sans text-primary">
         blog

@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import headshot from "@/newhs.png";
 
 const Home = () => {
   useEffect(() => {
@@ -28,7 +29,11 @@ const Home = () => {
       id="home"
       style={{ minHeight: "calc(100vh - 6rem)" }}
     >
-      <div className="flex flex-col items-center w-full xl:mt-28 lg:mt-12 md:mt-6">
+      <div className="flex flex-col items-center w-full">
+        <img
+          src={headshot}
+          className="w-1/6 rounded-full border-white border-[6px] mb-4"
+        />
         <h1 className="text-white lg:text-8xl md:text-6xl text-5xl font-karma mb-4">
           connor park
         </h1>

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-const About = () => {
+const Education = () => {
   useEffect(() => {
     const handleScroll = () => {
       const textElement = document.querySelector(".move-text");
@@ -65,4 +65,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Education;
